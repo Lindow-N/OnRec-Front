@@ -1,0 +1,102 @@
+.PP{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight:500; 
+   
+}
+.PP2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight:bold; 
+}
+
+.Prestationscontainer{
+    width: 60%;
+    background-color:#171717;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 5%;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+   
+}
+
+.Prestationscontainerp{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold; 
+    
+}
+
+.LigneContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Pcontainer3{
+margin-top: 5%;
+}
+
+/*--------------------------------------------------------Code pour format de tablette--------------------------------------------------------*/
+
+@media(min-width: 768px) and (max-width: 1388px)
+{
+
+    .Pcontainer{
+        width: 80%;
+    }
+
+    .Pcontainer21{
+        width: 35%;
+        
+    }
+    
+    
+    .Pcontainer31{
+        width: 35%;
+    }
+    
+    .Pcontainer32{
+        width: 35%;
+    
+    }
+
+}
+
+
+/*-------------------------------------------------------Code pour format de smartphone-------------------------------------------------------*/
+
+@media(max-width: 767px)
+{
+
+    .Pcontainer{
+        width: 90%;
+    }
+    .PP{
+        font-size: 18px;
+    }
+    .PP2{
+        font-size: 18px;
+    }
+
+    .Pcontainer21{
+        width: 45%;
+        
+    }
+    
+    
+    .Pcontainer31{
+        width: 50%;
+    }
+    
+    .Pcontainer32{
+        width: 45%;
+    
+    }
+}

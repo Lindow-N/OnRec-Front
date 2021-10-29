@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    
+  }
+  .Ch1{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 55px;
+    font-weight: bold;
+}
+  .contactForm{
+    width:30%;
+    height:100%;
+    background:#171717;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #171717;
+    font-family: 'Roboto', sans-serif;
+    margin: 5% auto;
+    padding: 2% 2% 0 2%;
+}
+
+.Erreur{
+    display: none;
+    font-size: 22px;
+    color: #171717;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ErreurMail {
+    display: none;
+    font-size: 22px;
+    margin: 1%;
+    color: #171717;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formContent{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inputContact{
+
+    border: 0;
+    outline: 0;
+    cursor: text;
+    background: transparent;
+    border-bottom: 2px solid #444444;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight:400;
+    margin-bottom: 3%;
+    color: white;
+}
+
+textarea{
+    padding: 3%;
+    margin-top: 3%;
+    height: 150px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    color:#171717;
+    font-size: 16px;
+    border-radius: 5px;
+    resize: none;
+}
+
+#Envoyer {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 30px;
+    font-weight:bold;
+    width: 25%;
+    align-self:center;
+    margin: 5% 0;
+}
+
+/*--------------------------------------------------------Code pour format de tablette--------------------------------------------------------*/
+
+@media(min-width: 768px) and (max-width: 1388px)
+{
+
+    .contactForm{
+        width: 60%;
+    }
+   
+
+}
+
+
+/*-------------------------------------------------------Code pour format de smartphone-------------------------------------------------------*/
+
+@media(max-width: 767px)
+{
+
+    .contactForm{
+        width: 90%;
+    } 
+
+    #Envoyer {
+        width: 50%;
+
+    }
+}

@@ -1,0 +1,141 @@
+.backgroundPresentation{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.ContainerPresentation{
+    padding: 5% 4%;
+    
+}
+
+.Pcimg{
+    width: 40%;
+}
+.ImgT{
+    width: 100%;
+    height: 100%;
+}
+
+.ImgT2{
+    width: 100%;
+    height: 100%;
+}
+.h1Container{
+    text-align: center;
+}
+
+.pContainer{
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    color: #171717;
+    font-size: 28px;
+    font-weight:400;
+
+}
+
+.SContaineur1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.TexteContaineur{
+    text-align: start;
+    padding-left: 5%;
+}
+
+.SContaineur2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.TContaineur2{
+    text-align: end;
+    padding-right: 5%;
+}
+
+
+    
+
+ /*--------------------------------------------------------Code pour format de tablette--------------------------------------------------------*/
+
+ @media(min-width: 768px) and (max-width: 1388px)
+ {
+ 
+    .pContainer{
+            font-size: 26px;
+        }
+    .SContaineur1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .SContaineur2{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: end;
+        margin-top: 5%;
+        
+
+    }
+    
+    .ImgT{
+        width: 40%;
+        height: 40%;
+
+    }
+
+    .ImgT2{
+        width: 40%;
+        height: 40%;
+        float: right;
+    }
+    .Pcimg{
+        width: 100%;
+    }
+ }
+ 
+ 
+ /*-------------------------------------------------------Code pour format de smartphone-------------------------------------------------------*/
+ 
+ @media(max-width: 767px)
+ {
+
+    .pContainer{
+        font-size: 26px;
+    }
+
+    .SContaineur1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .SContaineur2{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: end;
+        margin-top: 10%;
+        
+
+    }
+    
+    .ImgT{
+        width: 70%;
+        height: 70%;
+
+    }
+
+    .ImgT2{
+        width: 70%;
+        height: 70%;
+        float: right;
+    }
+    .Pcimg{
+        width: 100%;
+    }
+     
+ }
